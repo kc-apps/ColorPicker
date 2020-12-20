@@ -73,20 +73,12 @@
 			children = (
 				19699F2C258C53D500E0D0BF /* AppDelegate.swift */,
 				19699F2E258C53D500E0D0BF /* SceneDelegate.swift */,
-				19699F45258C541E00E0D0BF /* Controller */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		19699F45258C541E00E0D0BF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				19699F32258C53D500E0D0BF /* Main.storyboard */,
 				19699F30258C53D500E0D0BF /* ViewController.swift */,
 				19699F53258C58CD00E0D0BF /* Color-Picker.xib */,
 				19699F56258C58D800E0D0BF /* ColorPickerView.swift */,
 			);
-			path = Controller;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
