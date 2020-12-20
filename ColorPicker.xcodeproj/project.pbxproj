@@ -15,7 +15,6 @@
 		19699F39258C53D900E0D0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19699F37258C53D900E0D0BF /* LaunchScreen.storyboard */; };
 		19699F54258C58CD00E0D0BF /* Color-Picker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19699F53258C58CD00E0D0BF /* Color-Picker.xib */; };
 		19699F57258C58D800E0D0BF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19699F56258C58D800E0D0BF /* ColorPickerView.swift */; };
-		19699F5D258CA47900E0D0BF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19699F5C258CA47900E0D0BF /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		19699F3A258C53D900E0D0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19699F53258C58CD00E0D0BF /* Color-Picker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Color-Picker.xib"; sourceTree = "<group>"; };
 		19699F56258C58D800E0D0BF /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		19699F5C258CA47900E0D0BF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 			children = (
 				19699F2C258C53D500E0D0BF /* AppDelegate.swift */,
 				19699F2E258C53D500E0D0BF /* SceneDelegate.swift */,
-				19699F5C258CA47900E0D0BF /* UIColor+Extension.swift */,
 				19699F45258C541E00E0D0BF /* Controller */,
 			);
 			path = Source;
@@ -163,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19699F5D258CA47900E0D0BF /* UIColor+Extension.swift in Sources */,
 				19699F31258C53D500E0D0BF /* ViewController.swift in Sources */,
 				19699F2D258C53D500E0D0BF /* AppDelegate.swift in Sources */,
 				19699F57258C58D800E0D0BF /* ColorPickerView.swift in Sources */,
