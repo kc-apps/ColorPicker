@@ -273,8 +273,14 @@ extension ColorPickerView {
 		switch colorStyle {
 		case .rgba:
 			viewSelecting.backgroundColor = UIColor(red: value1, green: value2, blue: value3, alpha: colorAlpha)
+			sliderValue1.thumbTintColor = UIColor(red: value1, green: value2, blue: value3, alpha: colorAlpha)
+			sliderValue2.thumbTintColor = UIColor(red: value1, green: value2, blue: value3, alpha: colorAlpha)
+			sliderValue3.thumbTintColor = UIColor(red: value1, green: value2, blue: value3, alpha: colorAlpha)
 		case .hsba:
 			viewSelecting.backgroundColor = UIColor(hue: value1, saturation: value2, brightness: value3, alpha: colorAlpha)
+			sliderValue1.thumbTintColor = UIColor(hue: value1, saturation: value2, brightness: value3, alpha: colorAlpha)
+			sliderValue2.thumbTintColor = UIColor(hue: value1, saturation: value2, brightness: value3, alpha: colorAlpha)
+			sliderValue3.thumbTintColor = UIColor(hue: value1, saturation: value2, brightness: value3, alpha: colorAlpha)
 		default:
 			fatalError()
 		}

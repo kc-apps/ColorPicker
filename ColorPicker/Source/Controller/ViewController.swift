@@ -23,7 +23,8 @@ extension ViewController {
 		let viewPicker = ColorPickerView(frame: self.view.frame)
 		viewPicker.delegate = self
 		self.view.addSubview(viewPicker)
-		viewPicker.onShow(currentColor: viewColor.backgroundColor!, style: .rgba)
+		viewPicker.onShow(currentColor: viewColor.backgroundColor!, //現在の色
+						  style: .rgba) //.rgbaか.hsbaを指定
 	}
 	
 	@IBAction fileprivate func onTouchHSBA(_ sender: UIButton) {
@@ -37,6 +38,6 @@ extension ViewController {
 // MARK: - ColorPickerViewDelegate
 extension ViewController: ColorPickerViewDelegate {
 	func colorPickerView(_ colorPickerView: ColorPickerView, picked color: UIColor) {
-		viewColor.backgroundColor = color
+		viewColor.backgroundColor = color //選択した色を反映
 	}
 }
